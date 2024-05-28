@@ -30,7 +30,6 @@ def convert_code(prompt):
 # Streamlit app
 st.set_page_config(page_title="Code Converter Web App")
 st.title("Code Converter Web App")
-st.write("Convert code from one programming language to another using Cloudflare AI.")
 
 source_code = st.text_area("Enter the source code here:",placeholder="Enter your code here...",height=200)
 source_language = st.selectbox("Source Language", ["Python", "JavaScript", "Java", "C++", "C#", "Ruby", "Go", "PHP", "Swift", "TypeScript", "Kotlin", "Rust", "Scala", "Perl", "Haskell"])
